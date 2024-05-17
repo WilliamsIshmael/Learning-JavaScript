@@ -12,3 +12,21 @@ function speaker() {
 speaker(); 
 speaker(); 
 speaker(); 
+
+// Parameters in functions
+`Parameters are variables that you list as part of a function definition. 
+They act as placeholders for values that will be passed to the function when it is called.`
+
+function addNumbers(a, b) { 
+return a + b; 
+} 
+
+`a and b are parameters.`
+
+console.log(addNumbers(10, 23)); 
+
+`10 will take the place of a and 23 will take the place of b.`
+
+
+
+
