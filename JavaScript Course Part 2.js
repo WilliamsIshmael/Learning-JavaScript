@@ -27,6 +27,7 @@ console.log(addNumbers(10, 23));
 
 `10 will take the place of a and 23 will take the place of b.`
 
+// ARRAYS 
+`It stores multiple values and elements in one variable.`
 
-
-
+const friends = ['Alessandro', 'Viktor', 'Isabella', 'Mike', 'Enzo']; 
