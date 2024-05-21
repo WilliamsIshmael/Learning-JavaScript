@@ -1,3 +1,8 @@
+// STRICT MODE
+
+`The purpose of "use strict" is to indicate that the code should be executed in "strict mode".`
+`Strict mode is declared by adding "use strict"; to the beginning of a script or a function.`
+
 // FUNCTIONS 
 `A JavaScript function is a block of code designed to perform a particular task.
 
@@ -31,3 +36,5 @@ console.log(addNumbers(10, 23));
 `It stores multiple values and elements in one variable.`
 
 const friends = ['Alessandro', 'Viktor', 'Isabella', 'Mike', 'Enzo']; 
+
+
