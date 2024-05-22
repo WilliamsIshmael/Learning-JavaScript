@@ -37,4 +37,17 @@ console.log(addNumbers(10, 23));
 
 const friends = ['Alessandro', 'Viktor', 'Isabella', 'Mike', 'Enzo']; 
 
+// OBJECTS 
+`An object literal is a list of property names:values inside curly braces {}.`
+
+let car = {brand: "Audi", model: "RS Q8", year: "2024", color: "Nardo Gray"}; 
+
+`It is also possible to create an empty object then add properties.` 
+
+let car = {}; 
+car.brand = "Audi";
+car.model = "RS Q8"; 
+car.year = "2024"; 
+car.color = "Nardo Gray"; 
+
 
