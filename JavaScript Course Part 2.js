@@ -51,3 +51,20 @@ car.year = "2024";
 car.color = "Nardo Gray"; 
 
 
+  // DOT AND BRACKET NOTATION
+
+const contestant = {
+  firstName: 'Hunter', 
+  lastName: 'Carson', 
+  age: 22, 
+  division: 'intermediate'
+}; 
+
+contestant.homeGym = 'Peak360'; 
+contestant['location'] = "Miami, Florida"; 
+
+console.log(`${contestant.firstName} ${contestant.lastName} is a ${contestant.age} year old CrossFit athelete. He is from ${contestant.location} and is a member at ${contestant.homeGym}.`);
+
+
+
+
