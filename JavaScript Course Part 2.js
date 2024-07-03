@@ -89,5 +89,79 @@ console.log(mark.calcBMI());
 console.log(john.calcBMI());
 
 
+// FOR LOOPS
+// There are three optional expression in for loops. 
+  // Expression 1 is executed (one time) before the execution of the code block. 
+  // Expression 2 defines the condition for executing the code block. 
+  // Expreesion 3 is executed (every time) the code block has been executed. 
+// For loops keep running while the condition is true. 
+
+const nathanielArray = [
+  'Nathaniel', 
+  'Torres', 
+  2024-1997, 
+  'software engineer', 
+  ['Naomi', 'Tessa', 'Caleb']
+]; 
+
+for(let i = 0; i < nathanielArray.length ; i++) {
+  console.log(nathanielArray[i])
+  console.log(typeof nathanielArray[i]); 
+};
+
+const years = [1990, 1981, 2005, 2015]; 
+const ages = []; 
+
+for (let i = 0; i < years.length; i++) {
+  ages.push(2024- years[i])
+}
+console.log(ages); 
+
+  // Backwards loops 
+
+const nathanielArray = [
+  'Nathaniel', 
+  'Torres', 
+  2024-1997, 
+  'software engineer', 
+  ['Naomi', 'Tessa', 'Caleb']
+]; 
+
+for (let i = nathanielArray.length - 1; i >= 0; i--) { 
+  console.log(nathanielArray[i];
+}
+  // Loops in loops
+
+for (let exercise = 1; exercise < 4; exercise++) {
+  console.log(`------ Staring exercise ${exercise}`);
+
+for (let rep = 1; rep < 6; rep++) { 
+  console.log(`Lifting weight repetition ${rep} 🏋🏿`);
+}
+}
+
+    // While loops
+    // For loop is used to iterate over a sequence of items.
+    // While loop is used to repeatedly execute a block of statements while a condition is true.
+
+let rep = 1;
+while (rep <= 10) {
+  console.log(`Lifting weights repetition ${rep} 🏋🏿`);
+  rep++;
+}
+
+    // Math.random
+    // returns a floating-point, pseudo-random number that's greater than or equal to 0 and less than 1
+
+    // Math.trunc 
+    // returns the integer part of a number by removing any fractional digits.
+
+let dice = Math.trunc(Math.random() * 6) + 1; 
+
+while (dice !== 6) {
+  console.log(`You rolled a ${dice}`); 
+  dice = Math.trunc(Math.random() * 6) + 1; 
+  if (dice === 6) console.log('Loop is about to end...'); 
+}
 
 
