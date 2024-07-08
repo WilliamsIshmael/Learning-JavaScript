@@ -24,3 +24,41 @@ Examples:
 function opposite(number) {
   return (-number)
 }
+
+// Volume of a Cuboid 
+`
+Bob needs a fast way to calculate the volume of a cuboid with three values: 
+the length, width and height of the cuboid. Write a function to help Bob with this calculation.
+`
+class Kata {
+  static getVolumeOfCuboid(length, width, height) {
+   return (length * width * height)
+  }
+}
+
+// Third Angle of a Triangle 
+`
+You are given two interior angles (in degrees) of a triangle.
+Write a function to return the 3rd.
+Note: only positive integers will be tested.
+`
+function otherAngle(a, b) {
+  return (180 - a - b);
+}
+
+// Simple multiplication 
+`
+This kata is about multiplying a given number by eight if it is an even number and by nine otherwise.
+`
+function simpleMultiplication(number) {
+    if (number % 2 === 0) {
+      return number * 8
+      } else { 
+      return number * 9;
+      }
+}
+
+
+
+
+
