@@ -1,3 +1,5 @@
+// Udemy Complete JavScript Course
+
 // Guidance on becoming a software developer
 
 // Have clear goals. 
