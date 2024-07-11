@@ -91,6 +91,13 @@ function greet(name){
   return `Hello, ${name} how are you doing today?`
 }
 
+// MakeUpperCase 
+`
+Write a function which converts the input string to uppercase.
+`
+function makeUpperCase(str) {
+  return str.toUpperCase();
+}
 
 
 
