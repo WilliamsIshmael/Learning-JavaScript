@@ -1,3 +1,5 @@
+JAVASCRIPT
+
 // Is it even?
 `
 In this Kata we are passing a number (n) into a function.
