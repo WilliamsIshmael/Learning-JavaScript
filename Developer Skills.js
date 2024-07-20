@@ -15,3 +15,12 @@
 // Break the problem into smaller problems. 
 // Research when necessary. Don't hesitate. 
 // Write psuedo-code before writing actual code. 
+
+// Learning to code 
+
+// Set a specific, measureable, realistic and time-based goal. 
+// Know exactly why you are leanring to code. 
+// Imagine a big project you want to be able to build.
+// Research technologies you need and then learn them. 
+// Tale notes. 
+// Challenge yourself and practice with small coding exercises and challenges. 
