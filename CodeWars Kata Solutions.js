@@ -139,3 +139,14 @@ Note: the input will always be valid.
 function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
   return (laLigaGoals + copaDelReyGoals + championsLeagueGoals);
 }
+
+// Beginner Series #2 Clock
+`
+Clock shows h hours, m minutes and s seconds after midnight.
+
+Your task is to write a function which returns the time since midnight in milliseconds.
+`
+
+function past(h, m, s){
+  return (h * 60 * 60000) + (m * 60000) + (s * 1000);
+}
