@@ -150,3 +150,12 @@ Your task is to write a function which returns the time since midnight in millis
 function past(h, m, s){
   return (h * 60 * 60000) + (m * 60000) + (s * 1000);
 }
+
+// Hello World
+`
+Make a simple function called greet that returns the most-famous "hello world!".
+`
+
+function greet() {
+  return 'hello world!'; 
+  }
