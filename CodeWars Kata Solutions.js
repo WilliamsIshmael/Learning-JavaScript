@@ -177,3 +177,13 @@ Note: Only valid inputs will be given.
 function booleanToString(b) {
   if (b === true) return "true"
 else return "false" }
+
+// Name Shuffler
+` 
+Write a function that returns a string in which firstname is swapped with last name.
+"john McClane" --> "McClane john"
+`
+function nameShuffler(str){
+  const newName = str.split(' ');
+  return newName[1] + ' ' + newName[0];
+}
