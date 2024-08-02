@@ -187,3 +187,24 @@ function nameShuffler(str){
   const newName = str.split(' ');
   return newName[1] + ' ' + newName[0];
 }
+
+// Remove String Spaces
+`
+Write a function that removes the spaces from the string, then return the resultant string.
+`
+function noSpace(x){
+return x = x.replace(/\s+/g, '');
+}
+
+// Super Duper Easy 
+`
+Make a function that returns the value multiplied by 50 and increased by 6. 
+If the value entered is a string it should return "Error".
+`
+function problem(x){
+  if (typeof x === "number") {
+    return (x * 50 + 6);
+  } else {
+    return "Error";
+}
+}
